@@ -3,7 +3,7 @@
 ![Screenshot](/images/Screenshot.png)
 
 ## What is it
-# this is a test for learning how to use the git.
+
 A rewrite of the classic game river raid, in Rust.
 Also I am [screen casting](https://youtube.com/playlist?list=PLFOYXCPEqdNXWsdP8orNI65uvmIwNxLbz&si=3YTF_XHaivJYfJfc) all of it. 
 
