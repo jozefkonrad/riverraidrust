@@ -1,14 +1,23 @@
-use crossterm::event::{poll, read, Event, KeyCode, KeyEventKind};
+use crossterm::event::{poll,
+                       read,
+                       Event,
+                       KeyCode,
+                       KeyEventKind,
+};
 
 use std::time::Duration;
 
 use crate::{
-    entities::{Bullet, PlayerStatus},
+    entities::{Bullet,
+               PlayerStatus,
+    },
     world::World,
 };
 
+const slowness:u64 = 256; // XXX
+
 pub fn handle_pressed_keys(world: &mut World) {
-    if poll(Duration::from_millis(10)).unwrap() {
+    if poll(Duration::from_millis(slowness)).unwrap() {
         let key = read().unwrap();
 
         while poll(Duration::from_millis(0)).unwrap() {
