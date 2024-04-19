@@ -34,3 +34,7 @@ $ cargo run
 Because the development process is supposed to be streamed, you should raise an [Issue](https://github.com/jadijadi/riverraidrust/issues) before implementing any new feature.
 If I find a feature to be sufficiently important, I may prefer to implement it myself during a recording, allowing the audience to observe the process and learn from it.
 Thank you for understanding.
+
+## Why this Fork
+
+I just do not want to wait ;)
