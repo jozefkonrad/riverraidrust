@@ -68,9 +68,9 @@ impl World {
     }
 
     pub(super) fn pause_screen(&mut self) {
-        let pause_msg1: &str = "╔═══════════╗";
-        let pause_msg2: &str = "║Game Paused║";
-        let pause_msg3: &str = "╚═══════════╝";
+        let pause_msg1: &str = "╔═════════════╗";
+        let pause_msg2: &str = "║ Game Paused ║";
+        let pause_msg3: &str = "╚═════════════╝";
 
         self.canvas
             .draw_line((self.maxc / 2 - 6, self.maxl / 2 - 1), pause_msg1)
